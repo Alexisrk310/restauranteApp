@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body{
+    overflow-x: hidden;
+}
+.background-img{
+    background-image: url(/assets/img/background-img.jpg);
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.font-bold{
+    font-family: 'Sriracha', cursive;
+    color: #FFFFFF;
+   /* scroll-behavior: auto; */
+}
+.font-bold:hover{
+    color: #C6AE01;
+}
+.bars{
+   
+    background: url(/assets/img/bars.png);
+    
+    background-size: cover;
+    padding: auto auto;
+}
+.content{
+    padding-top: 170px;
+    
+    color: #FFFFFF;
+}
+.board{
+    height: 200px;
+    background:url(/assets/img/board-food.png) ;
+    opacity: .8;
+ 
+}
+
+.food{
+    max-width: 200px;
+    object-fit: cover;
+    object-position: center center;
+}
+.home{
+    /* width: 100px; */
+
+    margin-top: 40px;
+    
+    background:#FFEBC9;
+}
+.icon-home{
+    max-width: 100px;
+    max-height: 100px;
+}
+.restaurant-photo{
+    width: 100vw;
+    max-width: 379px;
+}
+/* CARD */
+
+.carddd{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.carddd:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.carddd img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.carddd h4{
+    font-weight: 600;
+}
+
+.carddd p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.carddd a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.footer {
+	background-color: #423f3e;
+	width: 100vw;
+}
+.footer .text-footer {
+	font-weight: 900;
+	letter-spacing: 2px;
+	font-family: 'Otomanopee One', sans-serif;
+}
+.footer .text-app {
+	color: #808080;
+	font-family: 'Otomanopee One', sans-serif;
+}
+.facebook {
+	font-size: 30px;
+	color: #3b5998;
+}
+.twitter {
+	color: #00acee;
+	font-size: 30px;
+}
+.youtube {
+	color: #c4302b;
+	font-size: 30px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+@media (min-width: 992px) {
+    .spance{
+       
+        margin-left: 550px;
+        
+    }
+  }
