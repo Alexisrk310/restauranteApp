@@ -3,7 +3,7 @@ body{
     overflow-x: hidden;
 }
 .background-img{
-    background-image: url(/assets/img/background-img.jpg);
+    background-image: url("/assets/img/background-img.jpg");
     width: 100vw;
     height: 80vh;
     background-size: cover;
