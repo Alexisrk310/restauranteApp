@@ -3,7 +3,7 @@ body{
     overflow-x: hidden;
 }
 .background-img{
-    background-image: url('/assets/img/background-img.jpg');
+    background-image: url(https://img.lalr.co/cms/2021/03/25163019/interior-1.jpg);
     width: 100vw;
     height: 80vh;
     background-size: cover;
@@ -32,7 +32,7 @@ body{
 }
 .board{
     height: 200px;
-    background:url('./assets/img/board-food.png') ;
+    background:url('https://th.bing.com/th/id/R.fd97fb49e5c5150132eccf92a892a3c5?rik=%2bjnIhzDCOBQNyw&riu=http%3a%2f%2fim.hunt.in%2fcg%2frohtak%2fCity-Guide%2ffastfood.jpg&ehk=r1mIS0Mlzrl4%2bxjqfignlZ2N4Pg9tY%2bmMFy7zurRlB0%3d&risl=&pid=ImgRaw&r=0') ;
     opacity: .8;
  
 }
